@@ -1,0 +1,486 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+/* Navigation Bar Styling */
+.NavigationBar {
+    height: 60px;
+    display: flex;
+    background-color: #0f1111;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Logo {
+    background-image: url("abc.png");
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+
+.Albatross {
+    color: rgb(231, 134, 65);
+    font-family: "Nova Oval", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 4px;
+    
+}
+
+.NavLogo {
+    height: 55px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid #cccccc;
+}
+
+/* Box #2 */
+
+.NavAddress {
+
+    border-radius: 3px;
+}
+
+.Address-first {
+    color: #cccccc;
+    font-size: 1rem;
+    margin: 3px;
+    background-color: #0f1111;
+}
+
+.Address-second {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 3px;
+    background-color: #0f1111;
+}
+
+.Address-Icon {
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+}
+
+/* Box #3 */
+.NavSearch {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(231, 134, 65);
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.Search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.Search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.Search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgb(231, 134, 65);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+
+}
+
+/* Box #4 */
+.NavLanguage {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.Search-language {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Box #4 */
+span {
+
+    font-size: 0.7rem;
+}
+
+.Nav-Second {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.NavSignIn {
+
+    color: #cccccc;
+}
+
+.NavReturn {
+    color: #cccccc;
+}
+
+.NavCart {
+    height: 40px;
+    width: 50px;
+    color: #cccccc;
+    font-size: 1rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Panel Styling */
+
+.Panel {
+
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.PanelOptions p {
+
+    display: inline;
+    margin-left: 20px;
+
+
+}
+
+.PanelOptions {
+
+    width: 70%;
+    font-size: 0.95rem;
+}
+
+.PanelDeals {
+
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/* Hero Section */
+
+.HeroSection {
+
+    background-image: url("Shopping.avif");
+    height: 380px;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+.HeroMeassage {
+
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.HeroMeassage a {
+
+    color: #007185;
+}
+
+.ShopSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(241, 161, 68);
+}
+
+.box {
+    height: 425px;
+    width: 22%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.BoxImage1 {
+    height: 300px;
+    background-image: url("PersonalCare.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.BoxImage2 {
+    height: 300px;
+    background-image: url("Fridge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.BoxImage3 {
+    height: 300px;
+    background-image: url("Beauty.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.BoxImage4 {
+    height: 300px;
+    background-image: url("Macrons.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.BoxImage5 {
+    height: 300px;
+    background-image: url("Furnished.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.BoxImage6 {
+    height: 300px;
+    background-image: url("Art.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.BoxImage7 {
+    height: 300px;
+    background-image: url("Laptop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.BoxImage8 {
+    height: 300px;
+    background-image: url("Bags.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.BoxContent1 {
+
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.BoxContent2 {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.BoxContent3 {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.BoxContent4 {
+
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.BoxContent5 {
+
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.BoxContent6 {
+
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.BoxContent7 {
+
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.BoxContent8 {
+
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Heading {
+    margin: 15px;
+}
+
+.BoxContent1 p {
+    background-color: white;
+}
+
+.BoxContent2 p {
+    background-color: white;
+}
+
+.BoxContent3 p {
+    background-color: white;
+}
+
+.BoxContent4 p {
+    background-color: white;
+}
+
+.BoxContent5 p {
+    background-color: white;
+}
+
+.BoxContent6 p {
+    background-color: white;
+}
+
+.BoxContent7 p {
+    background-color: white;
+}
+
+.BoxContent8 p {
+    background-color: white;
+}
+
+
+.Paragraph{
+
+    margin: 15px;
+}
+
+/* Footer Styling */
+
+footer{
+
+    margin-top: 20px;
+}
+
+.FootPanel1
+{
+background-color: #37475a;
+color: white;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+}
+
+.FootPanel2
+{
+background-color: #222f3d;
+color: white;
+height: 500px;
+display: flex;
+justify-content: space-evenly;
+font-size: 1.2rem;
+}
+
+ul{
+
+margin-top: 20px;
+
+}
+ul a{
+    display: block;
+    font-size: 0.95rem;
+    margin-top: 15px;
+    color: #dddddd;
+}
+
+.FootPanel3 {
+    background-color: #222f3d;
+    color: white;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.4px solid #cccccc;
+  }
+  
+  .FooterPanel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    font-size: 1rem;
+    border: 2px solid #cccccc;
+    margin: 35px;
+    padding:10px; /* Adjust padding as needed */
+  }
+  
