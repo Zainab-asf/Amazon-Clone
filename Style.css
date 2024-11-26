@@ -9,7 +9,7 @@
 
 /* Navigation Bar Styling */
 .NavigationBar {
-    height: 60px;
+    height: 70px;
     display: flex;
     background-color: #0f1111;
     align-items: center;
@@ -17,13 +17,13 @@
 }
 
 .Logo {
-    background-image: url("abc.png");
+    /* background-image: url("Asset/Eagle.png"); */
     background-size: cover;
     height: 100%;
     width: auto;
 }
 
-.Albatross {
+.Amazon {
     color: rgb(231, 134, 65);
     font-family: "Nova Oval", system-ui;
     font-weight: 400;
@@ -167,9 +167,9 @@ span {
 
 .Panel {
 
-    height: 40px;
+    height: 35px;
     width: 100%;
-    background-color: #222f3d;
+    background-color: #505354ec;
     display: flex;
     color: white;
     align-items: center;
@@ -177,11 +177,8 @@ span {
 }
 
 .PanelOptions p {
-
     display: inline;
     margin-left: 20px;
-
-
 }
 
 .PanelOptions {
@@ -196,24 +193,18 @@ span {
     font-weight: 700;
 }
 
-
 /* Hero Section */
-
 .HeroSection {
-
-    background-image: url("Shopping.avif");
-    height: 380px;
-    background-size: contain;
-    /* background-repeat: no-repeat; */
+    
+    height: 600px;
+    background: url("./Asset//Cart2.jpg") center center/cover ;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-
-
 }
 
-.HeroMeassage {
 
+.HeroMeassage {
     background-color: white;
     color: black;
     height: 40px;
@@ -226,7 +217,6 @@ span {
 }
 
 .HeroMeassage a {
-
     color: #007185;
 }
 
@@ -234,228 +224,86 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: rgb(241, 161, 68);
+    background-color: rgb(207,208,210);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .box {
-    height: 425px;
+    height: 400px;
     width: 22%;
     background-color: white;
-    padding: 20px 0px 15px;
+    padding: 15px; /* Adds padding around the image */
     margin-top: 1rem;
     margin-bottom: 1rem;
-
+    box-sizing: border-box; /* Ensures padding doesn't affect box size */
+    text-align: center; /* Centers the text horizontally */
 }
 
-.BoxImage1 {
-    height: 300px;
-    background-image: url("PersonalCare.webp");
-    background-size: cover;
+/* General styling for all BoxImage elements */
+.BoxImage1, .BoxImage2, .BoxImage3, .BoxImage4,
+.BoxImage5, .BoxImage6, .BoxImage7, .BoxImage8 {
+    height: 300px; /* Full height of the box */
+    background-size: cover; /* Ensures the image fills the box completely */
     background-repeat: no-repeat;
-
-
+    background-position: center; /* Centers the image within the box */
 }
 
-.BoxImage2 {
-    height: 300px;
-    background-image: url("Fridge.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+/* Individual background images for each BoxImage */
+.BoxImage1 { background-image: url("Asset/Care.jpg") ; }
+.BoxImage2 { background-image: url("Asset/Appliances.jpg"); }
+.BoxImage3 { background-image: url("Asset/Beauty.jpg"); }
+.BoxImage4 { background-image: url("Asset/Food.jpg"); }
+.BoxImage5 { background-image: url("Asset/Furniture.jpg"); }
+.BoxImage6 { background-image: url("Asset/Art.jpg"); }
+.BoxImage7 { background-image: url("Asset/Laptop.jpg"); }
+.BoxImage8 { background-image: url("Asset/Bags.jpg"); }
 
-.BoxImage3 {
-    height: 300px;
-    background-image: url("Beauty.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
 
-}
 
-.BoxImage4 {
-    height: 300px;
-    background-image: url("Macrons.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-.BoxImage5 {
-    height: 300px;
-    background-image: url("Furnished.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-.BoxImage6 {
-    height: 300px;
-    background-image: url("Art.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.BoxImage7 {
-    height: 300px;
-    background-image: url("Laptop.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-.BoxImage8 {
-    height: 300px;
-    background-image: url("Bags.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-.BoxContent1 {
-
+.BoxContent {
     text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
-.BoxContent2 {
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.BoxContent3 {
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.BoxContent4 {
-
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.BoxContent5 {
-
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.BoxContent6 {
-
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.BoxContent7 {
-
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.BoxContent8 {
-
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.Heading {
-    margin: 15px;
-}
-
-.BoxContent1 p {
+.BoxContent p {
     background-color: white;
 }
 
-.BoxContent2 p {
-    background-color: white;
-}
-
-.BoxContent3 p {
-    background-color: white;
-}
-
-.BoxContent4 p {
-    background-color: white;
-}
-
-.BoxContent5 p {
-    background-color: white;
-}
-
-.BoxContent6 p {
-    background-color: white;
-}
-
-.BoxContent7 p {
-    background-color: white;
-}
-
-.BoxContent8 p {
-    background-color: white;
-}
-
-
-.Paragraph{
-
+.Paragraph {
     margin: 15px;
 }
 
 /* Footer Styling */
 
-footer{
-
+footer {
     margin-top: 20px;
 }
 
-.FootPanel1
-{
-background-color: #37475a;
-color: white;
-height: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 1rem;
+.FootPanel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
 }
 
-.FootPanel2
-{
-background-color: #222f3d;
-color: white;
-height: 500px;
-display: flex;
-justify-content: space-evenly;
-font-size: 1.2rem;
+.FootPanel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
 }
 
-ul{
-
-margin-top: 20px;
-
+ul {
+    margin-top: 20px;
 }
-ul a{
+
+ul a {
     display: block;
     font-size: 0.95rem;
     margin-top: 15px;
@@ -471,9 +319,9 @@ ul a{
     justify-content: center;
     align-items: center;
     border-top: 0.4px solid #cccccc;
-  }
-  
-  .FooterPanel {
+}
+
+.FooterPanel {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -481,6 +329,19 @@ ul a{
     font-size: 1rem;
     border: 2px solid #cccccc;
     margin: 35px;
-    padding:10px; /* Adjust padding as needed */
-  }
-  
+    padding: 10px;
+}
+
+/* Media Queries for Responsiveness */
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .NavSearch {
+        width: 100%;
+        flex-direction: column;
+    }
+}
